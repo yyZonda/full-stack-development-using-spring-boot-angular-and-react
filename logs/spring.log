@@ -1,0 +1,31 @@
+2020-08-03 21:20:36.477  INFO 17840 --- [main] c.y.f.s.f.FlightreservationApplication   : Starting FlightreservationApplication on LAPTOP-ZONDA with PID 17840 (C:\Users\Zonda\Desktop\udemy\flight\flightreservation\target\classes started by Zonda in C:\Users\Zonda\Desktop\udemy\flight\flightreservation)
+2020-08-03 21:20:36.484  INFO 17840 --- [main] c.y.f.s.f.FlightreservationApplication   : No active profile set, falling back to default profiles: default
+2020-08-03 21:20:37.619  INFO 17840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-03 21:20:37.754  INFO 17840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124ms. Found 4 JPA repository interfaces.
+2020-08-03 21:20:38.358  INFO 17840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-03 21:20:38.369  INFO 17840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-03 21:20:38.370  INFO 17840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-03 21:20:38.773  INFO 17840 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-08-03 21:20:38.783  INFO 17840 --- [main] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring embedded WebApplicationContext
+2020-08-03 21:20:38.783  INFO 17840 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2209 ms
+2020-08-03 21:20:38.978  INFO 17840 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-03 21:20:38.987  INFO 17840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-03 21:20:39.131  INFO 17840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-03 21:20:39.194  INFO 17840 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-03 21:20:39.248  WARN 17840 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-03 21:20:39.259  INFO 17840 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-03 21:20:39.542  INFO 17840 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-03 21:20:39.585  INFO 17840 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2020-08-03 21:20:39.719  INFO 17840 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-08-03 21:20:39.801  INFO 17840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2020-08-03 21:20:39.803  INFO 17840 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-03 21:20:40.665  INFO 17840 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-03 21:20:40.677  INFO 17840 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-03 21:20:41.279  INFO 17840 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-03 21:20:41.294  INFO 17840 --- [main] c.y.f.s.f.FlightreservationApplication   : Started FlightreservationApplication in 5.851 seconds (JVM running for 7.8)
+2020-08-03 21:20:46.238  INFO 17840 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-03 21:20:46.239  INFO 17840 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-03 21:20:46.244  INFO 17840 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-08-03 21:20:46.270  INFO 17840 --- [http-nio-8080-exec-2] c.y.f.s.f.Controllers.UserController     : Inside showLoginPage()
+2020-08-03 21:20:55.689  INFO 17840 --- [http-nio-8080-exec-3] c.y.f.s.f.Controllers.UserController     : Inside login() and the email is guo@gmail.com
+2020-08-03 21:21:46.774  INFO 17840 --- [http-nio-8080-exec-5] c.y.f.s.f.Controllers.FlightController   : Inside findFlights()AUSToNYCDeparture DateMon Feb 05 00:00:00 EST 2018
