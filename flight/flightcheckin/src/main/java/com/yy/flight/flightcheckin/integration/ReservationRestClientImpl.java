@@ -5,7 +5,9 @@ import com.yy.flight.flightcheckin.integration.dto.Reservation;
 import com.yy.flight.flightcheckin.integration.dto.ReservationUpdateRequest;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.client.RestTemplate;
+
 
 @Component
 public class ReservationRestClientImpl implements ReservationRestClient {
@@ -21,6 +23,7 @@ public class ReservationRestClientImpl implements ReservationRestClient {
     }
 
     @Override
+    @Transactional
     public Reservation updateReservation(ReservationUpdateRequest request) {
         RestTemplate restTemplate= new RestTemplate();
         Reservation reservation = restTemplate.postForObject(RESERVATIONS,request,Reservation.class);

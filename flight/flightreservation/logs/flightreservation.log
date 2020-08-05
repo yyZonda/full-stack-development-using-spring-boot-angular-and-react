@@ -1,174 +1,32 @@
-2020-08-03 22:26:26 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-03 22:26:26 - Initializing Servlet 'dispatcherServlet'
-2020-08-03 22:26:26 - Completed initialization in 6 ms
-2020-08-03 22:26:26 - Inside completeReservation()ReservationRequest{flightId=4, passengerFirstName='yi', passengerLastName='yu', passengerEmail='333@gmail.com', passengerPhone='123', nameOnTheCard='yy', cardNumber='123', expirationDate='02-03-2020', securityCode='123'}
-2020-08-03 22:26:26 - Inside bookFlight()
-2020-08-03 22:26:26 - saving the reservation
-2020-08-03 22:26:26 - Generate PDF
-2020-08-03 22:26:26 - genarateItinerary()
-2020-08-03 22:26:26 - Exception in genarateItinerary()java.io.FileNotFoundException: "C:\Users\Zonda\Desktop\udemy\reservations\"7.pdf (文件名、目录名或卷标语法不正确。)
-2020-08-03 22:28:26 - Starting FlightreservationApplication on LAPTOP-ZONDA with PID 22380 (C:\Users\Zonda\Desktop\udemy\flight\flightreservation\target\classes started by Zonda in C:\Users\Zonda\Desktop\udemy\flight\flightreservation)
-2020-08-03 22:28:26 - No active profile set, falling back to default profiles: default
-2020-08-03 22:28:27 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-08-03 22:28:27 - Finished Spring Data repository scanning in 141ms. Found 4 JPA repository interfaces.
-2020-08-03 22:28:28 - Tomcat initialized with port(s): 8080 (http)
-2020-08-03 22:28:28 - Initializing ProtocolHandler ["http-nio-8080"]
-2020-08-03 22:28:28 - Starting service [Tomcat]
-2020-08-03 22:28:28 - Starting Servlet engine: [Apache Tomcat/9.0.37]
-2020-08-03 22:28:29 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-08-03 22:28:29 - Initializing Spring embedded WebApplicationContext
-2020-08-03 22:28:29 - Root WebApplicationContext: initialization completed in 3039 ms
-2020-08-03 22:28:29 - Initializing ExecutorService 'applicationTaskExecutor'
-2020-08-03 22:28:29 - HikariPool-1 - Starting...
-2020-08-03 22:28:30 - HikariPool-1 - Start completed.
-2020-08-03 22:28:30 - HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-08-03 22:28:30 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-08-03 22:28:30 - HHH000412: Hibernate ORM core version 5.4.18.Final
-2020-08-03 22:28:30 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-08-03 22:28:30 - Adding welcome page: ServletContext resource [/index.html]
-2020-08-03 22:28:30 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2020-08-03 22:28:30 - Starting ProtocolHandler ["http-nio-8080"]
-2020-08-03 22:28:30 - Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
-2020-08-03 22:28:30 - Triggering deferred initialization of Spring Data repositories…
-2020-08-03 22:28:31 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-08-03 22:28:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-08-03 22:28:32 - Spring Data repositories initialized!
-2020-08-03 22:28:32 - Started FlightreservationApplication in 6.437 seconds (JVM running for 8.092)
-2020-08-03 22:29:52 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-03 22:29:52 - Initializing Servlet 'dispatcherServlet'
-2020-08-03 22:29:52 - Completed initialization in 5 ms
-2020-08-03 22:29:52 - Inside completeReservation()ReservationRequest{flightId=4, passengerFirstName='yi', passengerLastName='yu', passengerEmail='333@gmail.com', passengerPhone='123', nameOnTheCard='yy', cardNumber='123', expirationDate='02-03-2020', securityCode='123'}
-2020-08-03 22:29:52 - Inside bookFlight()
-2020-08-03 22:29:53 - saving the reservation
-2020-08-03 22:29:53 - Generate PDF
-2020-08-03 22:29:53 - genarateItinerary()
-2020-08-03 22:29:53 - Exception in genarateItinerary()java.io.FileNotFoundException: "C:\Users\Zonda\Desktop\udemy\reservations\"8.pdf (文件名、目录名或卷标语法不正确。)
-2020-08-03 22:34:16 - Starting FlightreservationApplication on LAPTOP-ZONDA with PID 8012 (C:\Users\Zonda\Desktop\udemy\flight\flightreservation\target\classes started by Zonda in C:\Users\Zonda\Desktop\udemy\flight\flightreservation)
-2020-08-03 22:34:16 - No active profile set, falling back to default profiles: default
-2020-08-03 22:34:18 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-08-03 22:34:18 - Finished Spring Data repository scanning in 185ms. Found 4 JPA repository interfaces.
-2020-08-03 22:34:19 - Tomcat initialized with port(s): 8080 (http)
-2020-08-03 22:34:19 - Initializing ProtocolHandler ["http-nio-8080"]
-2020-08-03 22:34:19 - Starting service [Tomcat]
-2020-08-03 22:34:19 - Starting Servlet engine: [Apache Tomcat/9.0.37]
-2020-08-03 22:34:19 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-08-03 22:34:19 - Initializing Spring embedded WebApplicationContext
-2020-08-03 22:34:19 - Root WebApplicationContext: initialization completed in 3284 ms
-2020-08-03 22:34:20 - Initializing ExecutorService 'applicationTaskExecutor'
-2020-08-03 22:34:20 - HikariPool-1 - Starting...
-2020-08-03 22:34:20 - HikariPool-1 - Start completed.
-2020-08-03 22:34:20 - HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-08-03 22:34:20 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-08-03 22:34:20 - HHH000412: Hibernate ORM core version 5.4.18.Final
-2020-08-03 22:34:20 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-08-03 22:34:20 - Adding welcome page: ServletContext resource [/index.html]
-2020-08-03 22:34:21 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2020-08-03 22:34:21 - Starting ProtocolHandler ["http-nio-8080"]
-2020-08-03 22:34:21 - Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
-2020-08-03 22:34:21 - Triggering deferred initialization of Spring Data repositories…
-2020-08-03 22:34:21 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-03 22:34:21 - Initializing Servlet 'dispatcherServlet'
-2020-08-03 22:34:21 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-08-03 22:34:21 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-08-03 22:34:22 - Spring Data repositories initialized!
-2020-08-03 22:34:22 - Completed initialization in 865 ms
-2020-08-03 22:34:22 - Started FlightreservationApplication in 6.76 seconds (JVM running for 9.274)
-2020-08-03 22:34:22 - Inside completeReservation()ReservationRequest{flightId=4, passengerFirstName='yi', passengerLastName='yu', passengerEmail='333@gmail.com', passengerPhone='123', nameOnTheCard='yy', cardNumber='123', expirationDate='02-03-2020', securityCode='123'}
-2020-08-03 22:34:22 - Inside bookFlight()
-2020-08-03 22:34:22 - saving the reservation
-2020-08-03 22:34:22 - Generate PDF
-2020-08-03 22:34:22 - genarateItinerary()
-2020-08-03 22:34:22 - Exception in genarateItinerary()java.io.FileNotFoundException: "C:\Users\Zonda\Desktop\udemy\reservations\"9.pdf (文件名、目录名或卷标语法不正确。)
-2020-08-03 22:35:30 - Starting FlightreservationApplication on LAPTOP-ZONDA with PID 8968 (C:\Users\Zonda\Desktop\udemy\flight\flightreservation\target\classes started by Zonda in C:\Users\Zonda\Desktop\udemy\flight\flightreservation)
-2020-08-03 22:35:30 - No active profile set, falling back to default profiles: default
-2020-08-03 22:35:31 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-08-03 22:35:31 - Finished Spring Data repository scanning in 137ms. Found 4 JPA repository interfaces.
-2020-08-03 22:35:32 - Tomcat initialized with port(s): 8080 (http)
-2020-08-03 22:35:32 - Initializing ProtocolHandler ["http-nio-8080"]
-2020-08-03 22:35:32 - Starting service [Tomcat]
-2020-08-03 22:35:32 - Starting Servlet engine: [Apache Tomcat/9.0.37]
-2020-08-03 22:35:33 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-08-03 22:35:33 - Initializing Spring embedded WebApplicationContext
-2020-08-03 22:35:33 - Root WebApplicationContext: initialization completed in 2676 ms
-2020-08-03 22:35:33 - Initializing ExecutorService 'applicationTaskExecutor'
-2020-08-03 22:35:33 - HikariPool-1 - Starting...
-2020-08-03 22:35:33 - HikariPool-1 - Start completed.
-2020-08-03 22:35:33 - HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-08-03 22:35:33 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-08-03 22:35:33 - HHH000412: Hibernate ORM core version 5.4.18.Final
-2020-08-03 22:35:34 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-08-03 22:35:34 - Adding welcome page: ServletContext resource [/index.html]
-2020-08-03 22:35:34 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2020-08-03 22:35:34 - Starting ProtocolHandler ["http-nio-8080"]
-2020-08-03 22:35:34 - Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
-2020-08-03 22:35:34 - Triggering deferred initialization of Spring Data repositories…
-2020-08-03 22:35:35 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-03 22:35:35 - Initializing Servlet 'dispatcherServlet'
-2020-08-03 22:35:35 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-08-03 22:35:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-08-03 22:35:36 - Spring Data repositories initialized!
-2020-08-03 22:35:36 - Completed initialization in 933 ms
-2020-08-03 22:35:36 - Started FlightreservationApplication in 6.612 seconds (JVM running for 9.096)
-2020-08-03 22:35:36 - Inside completeReservation()ReservationRequest{flightId=4, passengerFirstName='yi', passengerLastName='yu', passengerEmail='333@gmail.com', passengerPhone='123', nameOnTheCard='yy', cardNumber='123', expirationDate='02-03-2020', securityCode='123'}
-2020-08-03 22:35:36 - Inside bookFlight()
-2020-08-03 22:35:36 - saving the reservation
-2020-08-03 22:35:36 - Generate PDF
-2020-08-03 22:35:36 - genarateItinerary()
-2020-08-03 22:38:21 - Starting FlightreservationApplication on LAPTOP-ZONDA with PID 12980 (C:\Users\Zonda\Desktop\udemy\flight\flightreservation\target\classes started by Zonda in C:\Users\Zonda\Desktop\udemy\flight\flightreservation)
-2020-08-03 22:38:21 - No active profile set, falling back to default profiles: default
-2020-08-03 22:38:22 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-08-03 22:38:22 - Finished Spring Data repository scanning in 173ms. Found 4 JPA repository interfaces.
-2020-08-03 22:38:23 - Tomcat initialized with port(s): 8080 (http)
-2020-08-03 22:38:23 - Initializing ProtocolHandler ["http-nio-8080"]
-2020-08-03 22:38:23 - Starting service [Tomcat]
-2020-08-03 22:38:23 - Starting Servlet engine: [Apache Tomcat/9.0.37]
-2020-08-03 22:38:23 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-08-03 22:38:23 - Initializing Spring embedded WebApplicationContext
-2020-08-03 22:38:23 - Root WebApplicationContext: initialization completed in 2718 ms
-2020-08-03 22:38:24 - Initializing ExecutorService 'applicationTaskExecutor'
-2020-08-03 22:38:24 - HikariPool-1 - Starting...
-2020-08-03 22:38:24 - HikariPool-1 - Start completed.
-2020-08-03 22:38:24 - HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-08-03 22:38:24 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-08-03 22:38:24 - HHH000412: Hibernate ORM core version 5.4.18.Final
-2020-08-03 22:38:24 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-08-03 22:38:24 - Adding welcome page: ServletContext resource [/index.html]
-2020-08-03 22:38:24 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2020-08-03 22:38:25 - Starting ProtocolHandler ["http-nio-8080"]
-2020-08-03 22:38:25 - Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
-2020-08-03 22:38:25 - Triggering deferred initialization of Spring Data repositories…
-2020-08-03 22:38:25 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-08-03 22:38:25 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-08-03 22:38:26 - Spring Data repositories initialized!
-2020-08-03 22:38:26 - Started FlightreservationApplication in 6.206 seconds (JVM running for 8.497)
-2020-08-03 22:39:31 - Starting FlightreservationApplication on LAPTOP-ZONDA with PID 2972 (C:\Users\Zonda\Desktop\udemy\flight\flightreservation\target\classes started by Zonda in C:\Users\Zonda\Desktop\udemy\flight\flightreservation)
-2020-08-03 22:39:31 - No active profile set, falling back to default profiles: default
-2020-08-03 22:39:32 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
-2020-08-03 22:39:32 - Finished Spring Data repository scanning in 120ms. Found 4 JPA repository interfaces.
-2020-08-03 22:39:33 - Tomcat initialized with port(s): 8080 (http)
-2020-08-03 22:39:33 - Initializing ProtocolHandler ["http-nio-8080"]
-2020-08-03 22:39:33 - Starting service [Tomcat]
-2020-08-03 22:39:33 - Starting Servlet engine: [Apache Tomcat/9.0.37]
-2020-08-03 22:39:33 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-08-03 22:39:33 - Initializing Spring embedded WebApplicationContext
-2020-08-03 22:39:33 - Root WebApplicationContext: initialization completed in 2078 ms
-2020-08-03 22:39:33 - Initializing ExecutorService 'applicationTaskExecutor'
-2020-08-03 22:39:33 - HikariPool-1 - Starting...
-2020-08-03 22:39:34 - HikariPool-1 - Start completed.
-2020-08-03 22:39:34 - HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-08-03 22:39:34 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-08-03 22:39:34 - HHH000412: Hibernate ORM core version 5.4.18.Final
-2020-08-03 22:39:34 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-08-03 22:39:34 - Adding welcome page: ServletContext resource [/index.html]
-2020-08-03 22:39:34 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
-2020-08-03 22:39:34 - Starting ProtocolHandler ["http-nio-8080"]
-2020-08-03 22:39:34 - Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
-2020-08-03 22:39:34 - Triggering deferred initialization of Spring Data repositories…
-2020-08-03 22:39:35 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-08-03 22:39:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-08-03 22:39:35 - Spring Data repositories initialized!
-2020-08-03 22:39:35 - Started FlightreservationApplication in 5.144 seconds (JVM running for 6.81)
-2020-08-03 22:50:01 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-08-03 22:50:01 - Initializing Servlet 'dispatcherServlet'
-2020-08-03 22:50:01 - Completed initialization in 8 ms
-2020-08-03 22:50:01 - inside findReservation for id:10
+2020-08-04 20:41:04 - Starting FlightreservationApplication on LAPTOP-ZONDA with PID 9432 (C:\Users\Zonda\Desktop\udemy\flight\flightreservation\target\classes started by Zonda in C:\Users\Zonda\Desktop\udemy\flight\flightreservation)
+2020-08-04 20:41:04 - No active profile set, falling back to default profiles: default
+2020-08-04 20:41:06 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-04 20:41:06 - Finished Spring Data repository scanning in 163ms. Found 5 JPA repository interfaces.
+2020-08-04 20:41:07 - Tomcat initialized with port(s): 8080 (http)
+2020-08-04 20:41:07 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-04 20:41:07 - Starting service [Tomcat]
+2020-08-04 20:41:07 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-04 20:41:07 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-08-04 20:41:07 - Initializing Spring embedded WebApplicationContext
+2020-08-04 20:41:07 - Root WebApplicationContext: initialization completed in 2773 ms
+2020-08-04 20:41:08 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-04 20:41:08 - HikariPool-1 - Starting...
+2020-08-04 20:41:08 - HikariPool-1 - Start completed.
+2020-08-04 20:41:08 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-04 20:41:08 - HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-04 20:41:08 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-04 20:41:09 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-04 20:41:09 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14982a82, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f3e19b3, org.springframework.security.web.header.HeaderWriterFilter@4beabeec, org.springframework.security.web.authentication.logout.LogoutFilter@cf518cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d04529c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4edef76c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ee5b2d9, org.springframework.security.web.session.SessionManagementFilter@2dd2e270, org.springframework.security.web.access.ExceptionTranslationFilter@49122b8f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2b8bb184]
+2020-08-04 20:41:09 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-08-04 20:41:09 - Adding welcome page: ServletContext resource [/index.html]
+2020-08-04 20:41:09 - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-04 20:41:09 - Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2020-08-04 20:41:09 - Triggering deferred initialization of Spring Data repositories…
+2020-08-04 20:41:10 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-04 20:41:10 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-04 20:41:11 - Spring Data repositories initialized!
+2020-08-04 20:41:11 - Started FlightreservationApplication in 7.1 seconds (JVM running for 10.036)
+2020-08-04 20:41:36 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-04 20:41:36 - Initializing Servlet 'dispatcherServlet'
+2020-08-04 20:41:36 - Completed initialization in 6 ms
+2020-08-04 20:41:36 - inside findReservation for id:1
