@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: flightservices
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: bharaththippireddy
+Implementation-Vendor-Id: com.bharath.discovery
+Spring-Boot-Version: 2.1.1.RELEASE
+Main-Class: org.springframework.boot.loader.JarLauncher
+Start-Class: com.bharath.flightreservation.FlightservicesApplication
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+Created-By: Apache Maven 3.6.1
+Build-Jdk: 1.8.0_231
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/flightservices
+

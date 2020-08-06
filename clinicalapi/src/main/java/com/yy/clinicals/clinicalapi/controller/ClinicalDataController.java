@@ -5,14 +5,16 @@ import com.yy.clinicals.clinicalapi.Entity.Patient;
 import com.yy.clinicals.clinicalapi.dto.ClinicalDataRequest;
 import com.yy.clinicals.clinicalapi.repos.ClinicalDataRepository;
 import com.yy.clinicals.clinicalapi.repos.PatientRepository;
+import com.yy.clinicals.clinicalapi.util.BMICalculator;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin
 public class ClinicalDataController {
 
     @Autowired
@@ -29,5 +31,18 @@ public class ClinicalDataController {
         clinicalData.setComponentValue((request.getComponentValue()));
         clinicalData.setPatient(patient);
         return clinicalDataRepository.save(clinicalData);
+    }
+
+    @RequestMapping(value = "/clinicals/{patientId}/{componentName}",method = RequestMethod.GET)
+    public List<ClinicalData> getClinicalData(@PathVariable("patientId") int patientId, @PathVariable("componentName")String componentName){
+        if(componentName.equals("bmi")){
+            componentName = "hw";
+        }
+        List<ClinicalData> clinicalData = clinicalDataRepository.findByPatientIdAndComponentNameOrderByMeasuredDateTime(patientId,componentName);
+        List<ClinicalData> duplicateClinicaData = new ArrayList<>(clinicalData);
+        for(ClinicalData eachEntry : duplicateClinicaData){
+            BMICalculator.calculateBMI(clinicalData, eachEntry);
+        }
+        return clinicalData;
     }
 }
